@@ -103,12 +103,12 @@ img {
     padding-bottom: 32px;
     
 }
-.site-nav .link:hover,
+.site-nav .link:hover, 
 .site-nav .link:focus,
 .site-nav .link:active {
     color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav  .link.current  {
     color: var(--accent-color);
 
 }
@@ -121,9 +121,11 @@ img {
 
 } */
 
+.item > .current {
+    /* position: relative; */
+}
 
-
-.link .current::after {
+.item .current::after {
 
     content:'';
     display: block;
@@ -135,7 +137,7 @@ img {
     color: var(--accent-color);
     top: 0;
     left: 0;
-    opacity: 1;
+    /* opacity: 1; */
 
 }
 
