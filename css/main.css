@@ -113,9 +113,6 @@ img {
 
 }
 
-.item > .current {
-    /* line-height: 4; */
-}
 
 .item.current::after {
 
@@ -224,7 +221,7 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
     margin: 0 auto;
-    outline: 2px solid teal;
+    /* outline: 2px solid teal; */
 }
 /* Button */
 
